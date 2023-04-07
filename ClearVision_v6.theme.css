@@ -1,8 +1,8 @@
 /**
- * @name Daybreak
- * @author DaybreakEclipse
+ * @name DaybreakV2
+ * @author ClearVision Team
  * @version 6.3.0
- * @description Nice theme
+ * @description Highly customizable and beautiful theme for BetterDiscord.
  * @source https://github.com/ClearVision/ClearVision-v6
  * @website https://clearvision.github.io
  * @invite 7pNUC9C
@@ -10,14 +10,16 @@
 */
 
 @import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
 
 :root {
-  --main-color: #673AB7;
-  --hover-color: #673AB7;
-  --success-color: #F44336;
+  --main-color: #F44336;
+  --hover-color: #5F0D07;
+  --success-color: #43b581;
   --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: url('https://cdnb.artstation.com/p/assets/images/images/004/267/865/large/wei-wang-2012-warcraft-042-traveler-001-s-b.jpg?1481849632');
+  --background-image: url('https://i.imgur.com/oUeqCWA.jpg');
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
@@ -30,7 +32,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://cdna.artstation.com/p/assets/images/images/004/267/824/large/wei-wang-2006-warcraft-004-blood-elf-female-paladin-s-b.jpg?1481849600');
+  --user-popout-image: url('https://i.imgur.com/G78cpdM.jpg');
   --user-popout-position: center;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -41,7 +43,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 3px;
-  --user-modal-image: url('https://cdnb.artstation.com/p/assets/images/images/004/267/821/large/wei-wang-2007-warcraft-001-bevsne-s-b.jpg?1481849599');
+  --user-modal-image: url('https://i.imgur.com/d0X8k0m.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -52,17 +54,17 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 3px;
-  --home-icon: url('https://i.imgur.com/sKSKGAm.png');
+  --home-icon: url('https://i.imgur.com/9j3S364.png');
   --home-position: center;
-  --home-size: 40px;
+  --home-size: 50px;
   --channel-unread: var(--main-color);
   --channel-color: rgba(255,255,255,0.3);
   --muted-color: rgba(255,255,255,0.1);
-  --online-color: #673AB7;
+  --online-color: #FF1100;
   --idle-color: #faa61a;
-  --dnd-color: #03A9F4;
+  --dnd-color: #673AB7;
   --streaming-color: #593695;
-  --offline-color: #808080;
+  --offline-color: #FFC107;
   --main-font: gg sans;
   --code-font: Consolas;
   --channels-width: 220px;
@@ -83,6 +85,19 @@
   --bd-blue: var(--main-color);
   --bd-blue-hover: var(--hover-color);
   --bd-blue-active: var(--hover-color);
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #FF1100;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #673AB7;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
 }
 
 /* Any custom CSS below here */
